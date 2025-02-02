@@ -1,6 +1,7 @@
 #include <iostream>
+#include "printAuthorName.h"
 
 int main()
 {
-  std::cout << "hrushchev.nikita\n";
+  hrushchev::printAuthorName(std::cout) << '\n';
 }
